@@ -1,5 +1,10 @@
 # Tesla Stock Price Prediction using Simple RNN and LSTM
 
+## Summary
+* Built and trained RNN and LSTM models using TensorFlow/Keras to forecast Tesla stock opening prices using historical data.
+* Applied sequence modeling with sliding windows, MinMax scaling, and dropout regularization; evaluated model performance using R² score and visualized trends.
+
+## Data Information:
 1. **Open:** The opening price of the stock on a particular trading day. This is the price at which the first trade is executed when the market opens.
 2.  **High:** The highest price at which the stock traded during the trading day. It indicates the maximum value that traders were willing to pay for the stock on that day.
 3. **Low:** The lowest price at which the stock traded during the trading day. This represents the minimum value for the stock within the trading day.
